@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Holds real smart-meter identifiers and the upstream host - see .env.example.
+.env
+
+# A raw upstream response: it lists the device ids of the whole fleet.
+sentinel_result.json
+
+models/*
+!models/.gitkeep
+
+pretrain_data/*
+!pretrain_data/.gitkeep
